@@ -93,7 +93,7 @@ function renderUsers(usersToRender = groupElementsOfArray(users, 3)[paginationpa
     (user) => `<div class="user-card">
         <p>${user.name}</p>
         <p>${user.city}</p>
-        <span>${user.age}</span>
+        <p>${user.age}</p>
         <button class="delete-user-button" id="${user.id}">Delete</button>
         <button class="edit-user-button" id="${user.id}">Edit</button>
     </div>`
