@@ -1,10 +1,24 @@
 body {
     background: gray;
+    
 }
 
 input, button {
     font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+  
 }
+
+#users-section,.input{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+#name,#age,#city{
+    width: 25%;
+}
+
 
 .user-card {
     border: 1px solid white;
@@ -12,12 +26,16 @@ input, button {
     margin: 10px;
     font-size: 20px;
     padding: 10px;
+    width: 25%;
+    text-align: center;
+    
 }
 
 .flex {
     display: flex;
     gap: 10px;
     margin: 20px;
+    justify-content: center;
 }
 
 .column {
@@ -42,5 +60,15 @@ input, button {
 
 input {
     outline: none;
+}
+#pagination{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} button{
+    margin: 15px;
+}
+.scroll,h1{
+    text-align: center;
 }
 
